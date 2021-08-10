@@ -1,33 +1,3 @@
-/*
-    Example implementation of an Elliptic Curve over a Finite Field
-    By Jarl Ostensen, December 2007
-    jarl.ostensen@gmail.com
-    
-    I wrote this because I wanted to understand more about Elliptic Curves and how they are 
-    used in cryoptography. There's plenty of sources and articles out there but I didn't find anything that 
-    condenced it all down to a "one pager" of code...
-    And as I completed this I thought others might want find it useful to help understand how ECC "works". 
-    
-    So, if you scroll all the way down to the bottom you'll find a symmmetric encryption example using 
-    ECC that motivates pretty much all the code above it...
-    
-    DISCLAIMERS:
-    * I obviously take no responsibility for any state secrets you might loose should 
-      you actually *use* the code herein...    
-    * I have written this as a fun little intellectual excercise - there might be mistakes, there might be bugs...
-
-    Main sources:
-        * Certicom: http://www.certicom.com/index.php?action=ecc,home
-        * Wikipedia
-        * Harry J. Smith's inverse-modulo implementation 
-            http://www.geocities.com/hjsmithh/Numbers/InvMod.html
-        * Raju and Akbani: http://www.cs.utsa.edu/~rakbani/publications/Akbani-ECC-IEEESMC03.pdf
-        * Allardyce and Goyal: http://www.ece.tamu.edu/~reddy/ee689_04/pres_joel_nitesh.pdf
-        * Klaus Reinhard's ECC test page: http://www-fs.informatik.uni-tuebingen.de/~reinhard/krypto/English/4.4.en.html
-
-    Developed using Dev-C++ version 4.9.9.2
-    http://www.bloodshed.net
-*/
 
 #include <cstdlib>
 #include <iostream>
